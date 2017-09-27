@@ -33,7 +33,7 @@ p{ font-family: "avenir", sans-serif;
     margin-left: 50px;
   } 
 
-#circle1 {
+#transparent {
   width: 780px;
   height: 450px;
   background-image:url(../img/shadow.png);
@@ -45,4 +45,20 @@ p{ font-family: "avenir", sans-serif;
   position: absolute;
   top: 180px;
   left: 340px;
+}
+
+.drag {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  /*background-image: url(../images/gifs/spiral3.gif);*/
+  /*-moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;*/
+  font-family: "avenir", sans-serif;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 780px;
+  left: 700px;
 }
