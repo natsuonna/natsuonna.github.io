@@ -29,7 +29,7 @@ p{ font-family: "avenir", sans-serif;
     font-size: 16px; 
     text-align: center; 
     color: white;
-    margin-top: 520px;
+    margin-top: 450px;
     margin-left: 50px;
   } 
 
@@ -37,28 +37,24 @@ p{ font-family: "avenir", sans-serif;
   width: 780px;
   height: 450px;
   background-image:url(../img/shadow.png);
-  background-color: white;
+  /*background-color: white;*/
   /*background-image: url(../images/gifs/spiral3.gif);*/
   /*-moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   border-radius: 100px;*/
   position: absolute;
-  top: 180px;
+  top: 150px;
   left: 340px;
 }
 
-.drag {
-  width: 100px;
-  height: 30px;
-  background-color: black;
-  /*background-image: url(../images/gifs/spiral3.gif);*/
-  /*-moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;*/
-  font-family: "avenir", sans-serif;
-  font-size: 16px;
-  color: white;
+.button{
+  
   position: absolute;
-  top: 780px;
-  left: 700px;
+  top: 720px;
+  left: 650px;
+  font-family: 'PT Sans', sans-serif;
+  filter: blur(0px);
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  opacity: .7;
 }
