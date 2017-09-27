@@ -1,0 +1,25 @@
+body{	
+  background-image: url(../photos/waves.gif);
+  background-repeat: no-repeat;
+  background-position: top left; 
+  background-attachment: fixed;
+  background-size: 1500px
+  }
+
+  a:link, a:visited {
+    background-color: #340099;
+    color: white;
+    font-family: "avenir", sans-serif;
+    font-size: 18px; 
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1{ font-family: "avenir", sans-serif;
+    font-size: 24px; 
+    color: #340099;
+    margin-top: 50px;
+    margin-right: 100px;
+  } 
