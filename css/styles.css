@@ -1,8 +1,9 @@
 body{	
-  background-image: url(../photos/waves.gif);
+  background-image: url(../img/gradient.gif);
   background-repeat: no-repeat;
   background-position: top left; 
   background-attachment: fixed;
+  /*background-color: blue;*/
   background-size: 1500px
   }
 
@@ -18,8 +19,30 @@ body{
 }
 
 h1{ font-family: "avenir", sans-serif;
-    font-size: 24px; 
-    color: #340099;
+    font-size: 80px; 
+    color: white;
     margin-top: 50px;
-    margin-right: 100px;
+    margin-left: 500px;
   } 
+
+p{ font-family: "avenir", sans-serif;
+    font-size: 16px; 
+    text-align: center; 
+    color: white;
+    margin-top: 520px;
+    margin-left: 50px;
+  } 
+
+#circle1 {
+  width: 780px;
+  height: 450px;
+  background-image:url(../img/shadow.png);
+  background-color: white;
+  /*background-image: url(../images/gifs/spiral3.gif);*/
+  /*-moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;*/
+  position: absolute;
+  top: 180px;
+  left: 340px;
+}
