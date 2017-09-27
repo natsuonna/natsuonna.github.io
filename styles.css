@@ -1,0 +1,64 @@
+body{	
+  background-image: url(../img/gradient.gif);
+  background-repeat: no-repeat;
+  background-position: top left; 
+  background-attachment: fixed;
+  /*background-color: blue;*/
+  background-size: 1500px
+  }
+
+  a:link, a:visited {
+    background-color: #340099;
+    color: white;
+    font-family: "avenir", sans-serif;
+    font-size: 18px; 
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1{ font-family: "avenir", sans-serif;
+    font-size: 80px; 
+    color: white;
+    margin-top: 50px;
+    margin-left: 500px;
+  } 
+
+p{ font-family: "avenir", sans-serif;
+    font-size: 16px; 
+    text-align: center; 
+    color: white;
+    margin-top: 520px;
+    margin-left: 50px;
+  } 
+
+#transparent {
+  width: 780px;
+  height: 450px;
+  background-image:url(../img/shadow.png);
+  background-color: white;
+  /*background-image: url(../images/gifs/spiral3.gif);*/
+  /*-moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;*/
+  position: absolute;
+  top: 180px;
+  left: 340px;
+}
+
+.drag {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  /*background-image: url(../images/gifs/spiral3.gif);*/
+  /*-moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;*/
+  font-family: "avenir", sans-serif;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 780px;
+  left: 700px;
+}
