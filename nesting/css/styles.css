@@ -12,15 +12,15 @@ body{
   position: absolute;
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 20px;
-  width: 80%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 } 
 
 .frame iframe {
   position: absolute;
   top: 0;
   left: 200px;
-  width: 100%;
-  height: 100%;
+  width: 20%;
+  height: 20%;
 }
 

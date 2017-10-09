@@ -1,0 +1,33 @@
+body{
+    background-color: #5c4cfb;
+}
+
+.container {
+ background-color: #ffefd5;
+ position: relative;
+ width: 100vw;
+ height: 100vh;
+ font-size: 30px;
+ font-family: sans-serif;
+ color: white;
+ 
+ margin-left: 43%;
+}
+
+.frame {
+ /*background-color: salmon;*/
+ position: absolute;
+ text-align: center;
+ left: 100px;
+ height: 90%;
+ width: 90%;
+ display: flex;
+ margin-top: 2%;
+ margin-left: -10vw;
+} 
+
+iframe {
+ height: 100%;
+ width: auto;
+}
+
