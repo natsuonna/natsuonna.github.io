@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.container {
+ background-color: #ffefd5;
+ position: relative;
+ width: 100vw;
+ height: 100vh;
+}
+
+.frame {
+ /*background-color: salmon;*/
+ position: absolute;
+ left: 100px;
+ height: 100%;
+ width: 90%;
+ display: flex;
+} 
+
+iframe {
+ height: 100%;
+ width: auto;
+}
+
