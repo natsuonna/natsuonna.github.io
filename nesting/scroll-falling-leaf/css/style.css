@@ -1,0 +1,92 @@
+body {
+  width: 1000px;
+  max-height: 500px;
+  
+}
+
+.container1 {
+  height:100px;
+  /*background-color: green;*/
+  position:relative;
+  width:33.3%;
+  padding-left:33.3%;
+}
+
+/*.leaf {
+  transform: translate(0,0);
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.fa-envira {
+  color:#a5d6a7;
+}*/
+
+.frame1 { 
+ transform: translate(0,0); 
+ position: absolute;
+ height: 40vh;
+ top: 10vh;
+ margin-left: 10vw;
+ display: flex;
+} 
+
+.container2 {
+  height:100px;
+  /*background-color: blue;*/
+  position:relative;
+  width:33.3%;
+  padding-right:33.3%;
+}
+
+.frame2 { 
+ transform: translate(0,0); 
+ position: absolute;
+ height: 40vh;
+ top: 10vh;
+ margin-left: 20vw;
+ display: flex;
+} 
+
+.container3 {
+  height:100px;
+  /*background-color: red;*/
+  position:relative;
+  width:33.3%;
+  padding-right:33.3%;
+}
+
+.frame3 { 
+ transform: translate(0,0); 
+ position: absolute;
+ height: 40vh;
+ top: 10vh;
+ margin-left: 30vw;
+ display: flex;
+} 
+
+.container4 {
+  height:100px;
+  /*background-color: red;*/ 
+  position:relative;
+  width:33.3%;
+  padding-right:20%;
+}
+
+.frame4 { 
+ transform: translate(0,0); 
+ position: absolute;
+ height: 40vh;
+ top: 5vh;
+ margin-left: 10vw;
+ display: flex;
+} 
+
+iframe {
+ height: auto;
+ width: auto;
+}

@@ -1,26 +1,28 @@
 body{
-    background-color: black;
-    overflow: hidden;
+    background-color: #5c4cfb;
 }
 
 .container {
- background-color: #ffefd5;
+ /*background-color: #ffefd5;*/
  position: relative;
- width: 100vw;
- height: 100vh;
+ left: 1vw; 
+ width: 50vw;
+ height: 50vh;
+ font-size: 3vw;
+ font-family: sans-serif;
+ color: white; 
 }
 
-.frame {
- /*background-color: salmon;*/
+.frame { 
  position: absolute;
- left: 100px;
- height: 100%;
- width: 90%;
+ height: 30vh;
+ top: 10vh;
+ margin-left: 10vw;
  display: flex;
 } 
 
 iframe {
- height: 100%;
+ height: auto;
  width: auto;
 }
 
